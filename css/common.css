@@ -26,13 +26,18 @@
 
     list-style: none;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
   }
-  .photo{
-    object-fit: cover;
-    width:90vw;
-  }
  
+  .photo{
+    object-fit:cover;
+    width:31vw;
+    height: 21vw;
+  }
