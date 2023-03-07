@@ -4,11 +4,11 @@ let counterValue=0;
 
 const decrementFunction = ()=>{
   counterValue--;
-  value.innerHTML=counterValue;
+  value.textContent=counterValue;
 }
 const incrementFunction = ()=>{
   counterValue++;
-  value.innerHTML=counterValue;
+  value.textContent=counterValue;
 }
 const incrementButton=document.querySelector('button[data-action="increment"]');
 const decrementButton=document.querySelector('button[data-action="decrement"]');
