@@ -14,6 +14,6 @@ const list = document.querySelectorAll('.item >h2');
 //console.log (categories.children.length);
 //console.log([...list]);
 
-for (i=0; i<categories.children.length;i++){
+for (let i=0; i<categories.children.length;i++){
   console.log('Category: ', list[i].innerText);
   console.log('Elements: ',list[i].nextElementSibling.children.length)}
